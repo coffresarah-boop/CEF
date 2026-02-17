@@ -4,36 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vita de Coffre Sarah Développeuse web et web mobile">
     <title>Curriculum Vitae Coffre Sarah</title>
     <link rel="stylesheet" href="asset/fontawesome-free-7.2.0-web/css/all.min.css">
-
+    <link rel="icon" href="./asset/img/Favicon.png" type="image/png">
     <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="asset/css/header.css">
-    <link rel="stylesheet" href="asset/css/aside.css">
-    <link rel="stylesheet" href="asset/css/section.css">
-    <link rel="stylesheet" href="asset/css/footer.css">
+    <link rel="stylesheet" href="asset/css/index.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
 </head>
 
 <body>
     <header>
-        <a href="./asset/img/photocv.png">
+        <a href="./asset/img/photocv.png" target="_blank">
             <img src="./asset/img/photocv.png" alt="Photo de Sarah" /></a>
         <h1>Sarah Coffre</h1>
         <h2>Développeuse Web et Web Mobile</h2>
-        <nav>
-            <p><i class="fa-solid fa-envelope"></i><a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=coffresarah.dev@gmail.com" target="_blank">
-                    Email</a></p>
-            <p>
+        <address>
+            <span><i class="fa-solid fa-envelope"></i><a href="mailto:coffresarah.dev@gmail.com">
+                    Email</a></span>
+            <span>
                 <i class="fa-solid fa-house"></i>
                 <a href="https://www.google.com/maps/place/24+Rue+Louis+Serre,+34500+B%C3%A9ziers/@43.3403618,3.2535315,17z/data=!3m1!4b1!4m6!3m5!1s0x12b10e2033cbee93:0xdfff3d9254cec5b8!8m2!3d43.3403618!4d3.2561064!16s%2Fg%2F11cpl3czp2?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank">Adresse</a>
-            </p>
-            <p> <i class="fa-solid fa-phone"></i><a href="tel:+33630965314">06.30.96.53.14</a></p>
-            <p><i class="fa-solid fa-car"></i> Permis B, non véhiuculer</p>
-        </nav>
+            </span>
+            <span> <i class="fa-solid fa-phone"></i><a href="tel:+33630965314">06.30.96.53.14</a></span>
+            <span><i class="fa-solid fa-car"></i> Permis B, non véhiuculée</span>
+        </address>
     </header>
     <main>
         <!-- Contenu principal -->
@@ -41,33 +38,43 @@
             <h3>Compétences</h3>
             <ul>
                 <li><strong>HTML</strong>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
                 </li>
                 <li><strong>CSS</strong>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
                 </li>
                 <li><strong>Javascript</strong>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
 
                 </li>
                 <li><strong>PHP</strong>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <span class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
                 </li>
             </ul>
             <h3>Langues</h3>
@@ -96,7 +103,7 @@
 
         </aside>
 
-        <section>
+        <div id="section">
             <h3>Profil</h3>
             <p>Développeuse web fullstack passionnée et rigoureuse, je mets à profit mon expérience dans le commerce
                 pour allier patience, sens du service et compétences techniques. Habituée à gérer des situations variées
@@ -107,35 +114,38 @@
 
             <h3> Formations</h3>
             <div class="formation-item">
-                <p><strong>Titre Professionnel DWWN</strong><time datetime="2026"> 2026
-                    </time><br>Centre Européen de Formation</p>
+                <span><strong>Titre Professionnel DWWN</strong><time datetime="2026"> 2026
+                    </time><br>Centre Européen de Formation</span>
             </div>
             <div class="formation-item">
-                <p><strong>Baccalauréat</strong><time datetime="2018">2018</time><br>Lycée Polyvalent Jean Moulin, 34500
-                    Béziers, France</p>
+                <span><strong>Baccalauréat</strong><time datetime="2018">2018</time><br>Lycée Polyvalent Jean Moulin,
+                    34500
+                    Béziers, France</span>
             </div>
 
             <h3>Expériences professionnelle</h3>
             <div class="formation-item">
-                <p><strong>Conseillére de vente</strong><time datetime="2023-09"> septembre 2023 - jusqu'à ce jour
+                <span><strong>Conseillére de vente</strong><time datetime="2023-09"> septembre 2023 - jusqu'à ce jour
                     </time><br>
-                    Micromania</p>
+                    Micromania</span>
             </div>
             <div class="formation-item">
-                <p><strong>Hôtesse d'acceuil</strong><time datetime="2022-08/2023-08">Aout 2022 - Aout 2023</time><br>
-                    Boulanger </p>
+                <span><strong>Hôtesse d'acceuil</strong><time datetime="2022-08">Aout 2022 -</time> <time
+                        datetime="2023-08">Aout
+                        2023</time><br>
+                    Boulanger </span>
             </div>
             <div class="formation-item">
-                <p><strong>Expérience dans la vente </strong><time datetime="2018">2018 - 2022</time><br> Cultura;
+                <span><strong>Expérience dans la vente </strong><time datetime="2018">2018 - 2022</time><br> Cultura;
                     BlueBox;
-                    Phonecase </p>
+                    Phonecase </span>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <a href="https://github.com/coffresarah-boop" target="_blank"><i class="fa-brands fa-github"></i></a>
 
-        <p>Mis à jour le 16/02/2026</p>
+        <span>Mis à jour le 16/02/2026</span>
     </footer>
 </body>
 

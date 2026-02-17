@@ -1,0 +1,150 @@
+body{
+    width: 1160px;
+    margin: auto;
+    background: #f5f5f5;
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: Lato;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+     font-size: 2.5rem;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+ h3 { 
+    color: #17abb3;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #17abb3; 
+    padding-bottom: 12px; 
+}
+
+p {
+    font-size: 1rem; 
+}
+
+main{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr;
+}
+
+header{
+    background: #17abb3;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 100px 60px 60px;
+    height: 230px;
+}
+
+header a {
+    grid-row: 1 / 4; 
+    justify-self: center; 
+    align-self: center;  
+}
+
+img{
+    width: 150px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    margin: auto;
+    cursor: zoom-in;
+}
+
+address{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6px 10px;
+    justify-content: center;
+    justify-items: start ;
+}
+
+a{
+outline: none;
+text-decoration: none;
+padding: 2px 1px 0;   
+color: white;
+}
+
+aside {
+    background-color: #e3e3e3;
+    padding: 5px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+.level, .stars {
+    color: #17abb3;
+    display: flex;
+    justify-content: end;
+}
+
+.fa-solid.fa-square{
+    color: #17abb3;
+    font-size: 9px;
+    ;
+}
+
+section {
+    background: #ffffff;
+    padding: 30px;
+}
+
+section p {
+    overflow: auto;
+    text-align: justify;  
+    text-indent: 30px; 
+    line-height: 1.6
+}
+
+time {
+    color: #17abb3;
+    font-weight: 600;
+    margin-left: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+.formation-item {
+    margin: 8px 0;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.formation-item:hover {
+    background-color: #eff5f6;
+    border-left: 4px solid #17abb3;
+}
+
+footer {
+    background-color: #17abb3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer i {
+     transition: opacity 0.3s, transform 0.3s;
+}
+
+footer i:hover {
+    opacity: 0.6;         
+    transform: scale(1.1); 
+}
