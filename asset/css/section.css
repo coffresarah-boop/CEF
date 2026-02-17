@@ -5,7 +5,11 @@ section {
 
 section p {
     overflow: auto;
-}
+    text-align: justify;  
+    text-indent: 30px; 
+    line-height: 1.6
+    }
+
 
 time {
     color: #17abb3;

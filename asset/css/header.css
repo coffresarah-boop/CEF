@@ -6,14 +6,18 @@ header{
     grid-template-rows: 100px 60px 60px;
     height: 230px;
 }
+header a {
+    grid-row: 1 / 4; 
+    justify-self: center; 
+    align-self: center;  
+}
 img{
     width: 150px;
     border: solid 5px #ffffff;
     border-radius: 50%;
-    grid-row: 1 / 4;
     margin: auto;
+    cursor: zoom-in;
 }
-
 
 nav{
     display: grid;
@@ -22,9 +26,16 @@ nav{
     justify-content: center;
     justify-items: start ;
 }
-nav p{
+nav > p{
     margin: 0;
     text-align: center;
     padding: 4px 6px;
     font-size: 0.95rem;
+}
+
+a {
+outline: none;
+text-decoration: none;
+padding: 2px 1px 0;   
+color: white;
 }

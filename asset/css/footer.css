@@ -4,3 +4,11 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+footer i {
+     transition: opacity 0.3s, transform 0.3s;
+}
+footer i:hover {
+    opacity: 0.6;         
+    transform: scale(1.1); 
+}
