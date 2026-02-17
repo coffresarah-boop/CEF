@@ -1,0 +1,30 @@
+header{
+    background: #17abb3;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 100px 60px 60px;
+    height: 230px;
+}
+img{
+    width: 150px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    grid-row: 1 / 4;
+    margin: auto;
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6px 10px;
+    justify-content: center;
+    justify-items: start ;
+}
+nav p{
+    margin: 0;
+    text-align: center;
+    padding: 4px 6px;
+    font-size: 0.95rem;
+}
